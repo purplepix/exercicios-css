@@ -1,6 +1,6 @@
 - float
 
-A propriedade FLOAT especifica que um elemento será posicionado ao lado esquerdo ou direito de seu container, permitindo texto e elementos do tipo inline se acomodem em volta. O elemento é removido do fluxo normal da página, porém ainda se mantem como parte desse fluxo (ao contrário do posicionamento ABSOLUTE).
+A propriedade FLOAT especifica que um elemento será posicionado ao lado esquerdo ou direito de seu container, permitindo texto e elementos do tipo inline se acomodem em volta. O elemento é removido do fluxo normal da página, porém ainda se mantém como parte desse fluxo (ao contrário do posicionamento ABSOLUTE).
 
 - caindo em desuso (mantido por causa do IE)
 - não funciona tão bem em mobile e no responsivo
@@ -40,4 +40,3 @@ https://css-tricks.com/snippets/css/using-font-face/
 - ícones
 
 https://icomoon.io/
-

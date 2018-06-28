@@ -1,20 +1,47 @@
   .container-1 div, .container-2 div{
+    border: 1px solid black;
+    padding: 10px;
   }
 
   .container-1{
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: stretch; */
+    justify-content: center;
   }
-  
+
   .box-1{
+    font-family: 'bebas_kairegular';
+    order: 3;
   }
-  
+
   .box-2{
+    order: 1;
   }
-  
+
   .box-3{
+    order: 2;
+
   }
 
   .container-2{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
   }
-  
+
   .container-2-box{
+    flex-basis: 20%;
   }
+
+.icon-connection {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px dotted black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
